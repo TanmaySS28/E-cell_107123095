@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing : border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;  
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:bisque;
+}
+
+#header{
+    height: 10%; 
+    width: 100%;
+    background-color: black;
+    position:fixed;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 70%;
+    margin: 20px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.content{
+    font-size: large;
+    color: chartreuse;
+    margin: 80px; 
+    border-radius: 1%;
+}
+
+#contact{
+    font-size: large;
+    color: chartreuse;
+    text-align: center;
+
+}
+
+.content:hover{
+    background-color: rgb(43, 3, 3);
+}
+
+
+
+
+
+#dummy{
+    height: 10vh; 
+    width: 100%;
+    background-color: rgb(223, 217, 28);
+    
+}
+
+#page1{
+    height: 90vh;
+    width: 100%; 
+    background-color:rgb(223, 217, 28);
+} 
+
+#box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    }
+
+
+#box1{
+    height: 98%;
+    width: 33.33%;
+    background-color: aqua;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+#box1{
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+#box2{
+    height: 98%;
+    width: 33.33%;
+    background-color: chartreuse;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#box2{
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#box3{
+    height: 98%;
+    width: 33.33%;
+    background-color: rgb(217, 20, 220);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#box3{
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#page2{
+    height: 90vh;
+    width: 100%; 
+    background-color: white;
+} 
+
+#keyfeatures {
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #keyfeatures .feature {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+  
+  #keyfeatures .feature i {
+    color: #ff8c00;
+  }
+  
+  #keyfeatures .feature div {
+    padding: 2rem;
+    margin-left: 2rem;
+  }
+  
+  #keyfeatures .feature div h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+#price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 0.2rem;
+    margin: 20px;
+
+  }
+  
+  .price-box {
+    border: solid aqua 3px;
+    border-radius: 11px;
+    text-align: center;
+  }
+  
+  .price-box:first-child {
+    margin-right: 1.2rem;
+    
+  }
+  
+  .price-box:last-child {
+    margin-left: 1.2rem;
+  }
+  
+  .price-box h3 {
+    background-color: yellow;
+    font-size: 1.05rem;
+    padding: 1rem;
+  }
+  
+  .price-box h2 {
+    padding: 1rem;
+  }
+  
+  .price-box p {
+    padding: 0 4rem 1rem;
+  }
+  
+  .price-box .btn {
+    display: inline-block;
+    margin: 1rem;
+  }
+  
+
